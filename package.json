@@ -1,0 +1,39 @@
+{
+  "name": "game-reviews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viper86/game-reviews.git"
+  },
+  "author": "Tyler Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/viper86/game-reviews/issues"
+  },
+  "homepage": "https://github.com/viper86/game-reviews#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.9.1",
+    "mocha": "^3.1.2",
+    "morgan": "^1.7.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.7",
+    "superagent": "^2.3.0"
+  }
+}
