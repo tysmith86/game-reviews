@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "express": "^4.14.0",
     "jsonwebtoken": "^7.1.9",
     "mongoose": "^4.6.7",
-    "superagent": "^2.3.0"
+    "superagent": "^2.3.0",
+    "validator": "^6.1.0"
   }
 }
